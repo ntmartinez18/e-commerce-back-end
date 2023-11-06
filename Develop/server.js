@@ -1,6 +1,6 @@
 const express = require('express');
 const routes = require('./routes');
-const sequelize = require('sequelize');
+const sequelize = require('./config/connection');
 // import sequelize connection
 
 const app = express();
@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 
 // sync sequelize models to the database, then turn on the server
-db.sync()
+sequelize.sync()
   .then(() => {
     console.log('Sequelize models synced to the database.');
   })
