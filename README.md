@@ -4,7 +4,7 @@
 An e-commerce backend application to manipulate data stored in a database
 
 ## Assets
-
+https://drive.google.com/file/d/1Q9KtThTpmE1MYqmEsZjZeAxrW0uutQyx/view
 
 ## Installation
 Install the required packages by running the command "npm install" in the command line.
@@ -20,9 +20,8 @@ Install the required packages by running the command "npm install" in the comman
 To use this application first install the required packages by running the command "npm install" in the terminal. You can then test the different api endpoints which allow you to get, create, update, and delete data in the category, product, and tag models.
 
 ## Credits
-Received starter code from 
-Used the Xpert Learning Assistant
-and received help from 
+Received starter code from https://github.com/coding-boot-camp/fantastic-umbrella
+Also utilized the Xpert Learning Assistant
 
 ## License
 This project is covered under the MIT license
